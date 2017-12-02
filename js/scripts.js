@@ -1,5 +1,4 @@
-//script
-var name = prompt('Enter your name');
-/*alert('Hello, ' + name);*/
-console.log('Hello, ' + name);
-//end of script
+var a = prompt('Declare the base of triangle');
+var h = prompt('Declere the height of triangle');
+var triangleArea = a*h/2;
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
